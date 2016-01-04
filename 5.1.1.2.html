@@ -12,6 +12,7 @@
     <title>Administrador Virtual</title>
 
     <link href="less/avi.less" rel="stylesheet/less">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -112,71 +113,119 @@
       <!-- Content for Administración de clientes -->
 
       <ol class="breadcrumb">
-        <li><a href="#">Home</a></li>
-        <li class="active">Configuración de clientes</li>
+         <li><a href="#">Home</a></li>
+        <li><a href="#">Configuración de clientes</a></li>
+        <li><a href="#">Resultado de clientes</a></li>
+        <li><a href="#">Información del cliente</a></li>
+        <li class="active">Modificar Cliente</li>
       </ol>
+
       <div class="row">
         <div class="col-sm-12">
-          <h2>Búsqueda de clientes</h2>
+          <h2>Modificar cliente</h2>
         </div>
         <div class="col-sm-12">
-          <form class="row">
-            <div class="col-sm-12">
-              <div class="form-group">
-                <label>Búsqueda por orden alfabético</label>
-                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                  <div class="btn-group" role="group" aria-label="First group"> 
-                    <button type="button" class="btn btn-default">A</button>
-                    <button type="button" class="btn btn-default">B</button>
-                    <button type="button" class="btn btn-default">C</button>
-                    <button type="button" class="btn btn-default">D</button>
-                    <button type="button" class="btn btn-default">E</button>
-                    <button type="button" class="btn btn-default">F</button>
-                    <button type="button" class="btn btn-default">G</button>
-                    <button type="button" class="btn btn-default">H</button>
-                    <button type="button" class="btn btn-default">I</button>
-                    <button type="button" class="btn btn-default">J</button>
-                    <button type="button" class="btn btn-default">K</button>
-                    <button type="button" class="btn btn-default">L</button>
-                    <button type="button" class="btn btn-default">M</button>
-                    <button type="button" class="btn btn-default">N</button>
-                    <button type="button" class="btn btn-default">O</button>
-                    <button type="button" class="btn btn-default">P</button>
-                    <button type="button" class="btn btn-default">Q</button>
-                    <button type="button" class="btn btn-default">R</button>
-                    <button type="button" class="btn btn-default">S</button>
-                    <button type="button" class="btn btn-default">T</button>
-                    <button type="button" class="btn btn-default">U</button>
-                    <button type="button" class="btn btn-default">V</button>
-                    <button type="button" class="btn btn-default">W</button>
-                    <button type="button" class="btn btn-default">Y</button>
-                    <button type="button" class="btn btn-default">X</button>
-                    <button type="button" class="btn btn-default">Z</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-7">
-              <div class="row">
-                <div class="form-group col-sm-6">
-                  <label for="1">Identificador tributario</label>
-                  <input type="email" class="form-control" id="1" placeholder="Ej: 73.778.987-9">
-                </div>
-                <div class="form-group col-sm-6">
-                  <label for="2">Teléfono</label>
-                  <input type="text" class="form-control" id="2" placeholder="Ej.: +56 22 4556789">
-                </div>
-              </div>
-            </div>
-            <div class="form-group col-sm-7">
-              <label for="3">Nombre</label>
-              <input type="text" class="form-control" id="3" placeholder="Ej.: Genaro Arriagada">
-            </div>
-            <div class="col-sm-12">
-              <a class="btn btn-default btn-primary" href="clients-results.html">Buscar</a>
-            </div>
-          </form>
+          <h4>Datos cliente</h4>
         </div>
+        <div class="col-sm-7">
+          <div class="row">
+            <div class="form-group col-sm-6">
+              <label for="1">Nombre cliente *</label>
+              <input type="text" class="form-control" id="1" placeholder="Ej: OMNISPORT">
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="2">Identificador tributario</label><br>
+              <span class="text-control">13.567.879-9</spaN>
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="2">Código</label>
+              <input type="text" class="form-control" id="2" placeholder="Ej.: 123456">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12">
+          <h4>Datos contrato</h4>
+        </div>
+        <div class="col-sm-7">
+          <div class="row">
+            <div class="form-group col-sm-6">
+              <label for="1">Operadora *</label>
+              <span class="text-control">Telecom</span>
+            </div>
+            <div class="form-group col-sm-4">
+              <label for="2">Plan tarifario</label><br>
+              <select class="form-control">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group col-sm-2">
+              <a class="btn btn-default btn-right" href="#">Crear</a>
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="2">Primer día del ciclo</label>
+              <select class="form-control">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="1">Plan comercial *</label>
+              <span class="text-control">Premium</span>
+            </div>
+            <div class="form-group col-sm-12">
+              <label for="">Tipo de cliente</label> <br>
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Fijo
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Móvil
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Fijo IP
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> AVI Residencial
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12">
+          <h4>Datos usuario web</h4>
+        </div>
+        <div class="col-sm-7">
+          <div class="row">
+            <div class="form-group col-sm-6">
+              <label for="1">Nombre usuario *</label>
+              <input type="text" class="form-control" id="1" placeholder="Ej: OMNISPORT">
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="2">Nombre</label><br>
+              <input type="text" class="form-control" id="1" placeholder="Ej: OMNISPORT">
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="2">Apellidos</label>
+              <input type="text" class="form-control" id="2" placeholder="Ej.: 123456">
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="2">Telefono</label>
+              <input type="text" class="form-control" id="2" placeholder="Ej.: 123456">
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-7">
+          <a class="btn btn-primary" href="#">Guardar</a>
+          <a class="btn btn-default" href="5.1.1.html">Cancelar</a>
+        </div>
+
       </div>
 
 
