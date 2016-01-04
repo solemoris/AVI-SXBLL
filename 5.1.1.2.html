@@ -97,10 +97,6 @@
               <a id="drop3" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">sac_sv <span class="caret"></span> </a>
               <ul class="dropdown-menu" aria-labelledby="drop3">
                 <li><a href="#">Cerrar sesión</a></li>
-<!--                 <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li> -->
               </ul>
             </li>
           </ul>
@@ -127,19 +123,24 @@
         <div class="col-sm-12">
           <h4>Datos cliente</h4>
         </div>
+
         <div class="col-sm-7">
-          <div class="row">
-            <div class="form-group col-sm-6">
-              <label for="1">Nombre cliente *</label>
-              <input type="text" class="form-control" id="1" placeholder="Ej: OMNISPORT">
-            </div>
-            <div class="form-group col-sm-6">
-              <label for="2">Identificador tributario</label><br>
-              <span class="text-control">13.567.879-9</spaN>
-            </div>
-            <div class="form-group col-sm-6">
-              <label for="2">Código</label>
-              <input type="text" class="form-control" id="2" placeholder="Ej.: 123456">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="row">
+                <div class="form-group col-sm-6">
+                  <label for="1">Nombre cliente *</label>
+                  <input type="text" class="form-control" id="1" placeholder="Ej: OMNISPORT">
+                </div>
+                <div class="form-group col-sm-6">
+                  <label for="2">Identificador tributario</label><br>
+                  <span class="text-control">13.567.879-9</spaN>
+                </div>
+                <div class="form-group col-sm-6">
+                  <label for="2">Código</label>
+                  <input type="text" class="form-control" id="2" placeholder="Ej.: 123456">
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -148,52 +149,56 @@
           <h4>Datos contrato</h4>
         </div>
         <div class="col-sm-7">
-          <div class="row">
-            <div class="form-group col-sm-6">
-              <label for="1">Operadora *</label>
-              <span class="text-control">Telecom</span>
-            </div>
-            <div class="form-group col-sm-4">
-              <label for="2">Plan tarifario</label><br>
-              <select class="form-control">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-            </div>
-            <div class="form-group col-sm-2">
-              <a class="btn btn-default btn-right" href="#">Crear</a>
-            </div>
-            <div class="form-group col-sm-6">
-              <label for="2">Primer día del ciclo</label>
-              <select class="form-control">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-            </div>
-            <div class="form-group col-sm-6">
-              <label for="1">Plan comercial *</label>
-              <span class="text-control">Premium</span>
-            </div>
-            <div class="form-group col-sm-12">
-              <label for="">Tipo de cliente</label> <br>
-              <label class="radio-inline">
-                <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Fijo
-              </label>
-              <label class="radio-inline">
-                <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Móvil
-              </label>
-              <label class="radio-inline">
-                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Fijo IP
-              </label>
-              <label class="radio-inline">
-                <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> AVI Residencial
-              </label>
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="row">
+                <div class="form-group col-sm-6">
+                  <label for="1">Operadora *</label>
+                  <span class="text-control">Telecom</span>
+                </div>
+                <div class="form-group col-sm-4">
+                  <label for="2">Plan tarifario</label><br>
+                  <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+                <div class="form-group col-sm-2">
+                  <a class="btn btn-default btn-right" href="#">Crear</a>
+                </div>
+                <div class="form-group col-sm-6">
+                  <label for="2">Primer día del ciclo</label>
+                  <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+                <div class="form-group col-sm-6">
+                  <label for="1">Plan comercial *</label>
+                  <span class="text-control">Premium</span>
+                </div>
+                <div class="form-group col-sm-12">
+                  <label for="">Tipo de cliente</label> <br>
+                  <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Fijo
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Móvil
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Fijo IP
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> AVI Residencial
+                  </label>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -202,22 +207,26 @@
           <h4>Datos usuario web</h4>
         </div>
         <div class="col-sm-7">
-          <div class="row">
-            <div class="form-group col-sm-6">
-              <label for="1">Nombre usuario *</label>
-              <input type="text" class="form-control" id="1" placeholder="Ej: OMNISPORT">
-            </div>
-            <div class="form-group col-sm-6">
-              <label for="2">Nombre</label><br>
-              <input type="text" class="form-control" id="1" placeholder="Ej: OMNISPORT">
-            </div>
-            <div class="form-group col-sm-6">
-              <label for="2">Apellidos</label>
-              <input type="text" class="form-control" id="2" placeholder="Ej.: 123456">
-            </div>
-            <div class="form-group col-sm-6">
-              <label for="2">Telefono</label>
-              <input type="text" class="form-control" id="2" placeholder="Ej.: 123456">
+         <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="row">
+                <div class="form-group col-sm-6">
+                  <label for="1">Nombre usuario *</label>
+                  <input type="text" class="form-control" id="1" placeholder="Ej: OMNISPORT">
+                </div>
+                <div class="form-group col-sm-6">
+                  <label for="2">Nombre</label><br>
+                  <input type="text" class="form-control" id="1" placeholder="Ej: OMNISPORT">
+                </div>
+                <div class="form-group col-sm-6">
+                  <label for="2">Apellidos</label>
+                  <input type="text" class="form-control" id="2" placeholder="Ej.: 123456">
+                </div>
+                <div class="form-group col-sm-6">
+                  <label for="2">Telefono</label>
+                  <input type="text" class="form-control" id="2" placeholder="Ej.: 123456">
+                </div>
+              </div>
             </div>
           </div>
         </div>
