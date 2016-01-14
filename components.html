@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Administrador Virtual: Componentes</title>
+
+    <link href="less/avi.less" rel="stylesheet/less">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img class="" src="img/logo-claro.png" width="" height="50"/></a>
+          <h1>Administrador Virtual</h1>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accesos <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#"><strong>Usuarios</strong></a></li>
+                  <li><a href="#">Op1</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#"><strong>Roles</strong></a></li>
+                  <li><a href="#">Op1</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reportes<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Op1</a></li>
+                  <li><a href="#">Op2</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Planes y tarifas<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Op1</a></li>
+                  <li><a href="#">Op2</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plataforma<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Op1</a></li>
+                  <li><a href="#">Op2</a></li>
+                </ul>
+            </li>
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Clientes<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><strong>Configuración clientes</strong></li>
+                  <li><a href="#">Información cliente</a></li>
+                  <li><a href="#">Servicios globales</a></li>
+                  <li><a href="#">Configuración</a></li>
+                  <li><a href="#">Modificar clave</a></li>
+                  <li><a href="#">Búsqueda de cliente</a></li>
+                  <li><a href="#">Transacciones de clientes</a></li>
+                  <li><a href="#">Crear líneas</a></li>
+                  <li><a href="#">Ayuda</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Administración</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Monitoreo<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Op1</a></li>
+                  <li><a href="#">Op2</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li id="fat-menu" class="dropdown">
+              <a id="drop3" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">sac_sv <span class="caret"></span> </a>
+              <ul class="dropdown-menu" aria-labelledby="drop3">
+                <li><a href="#">Cerrar sesión</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+
+      <!-- Content for Administración de clientes -->
+      <div>
+        <h2>01. Breadcrumb</h2>
+        <img src="img/components/breadcrumb.png" width="auto">
+      </div>
+      <br>
+      <!-- BREADCRUMB -->
+      <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="clients.html">Configuración de clientes</a></li>
+        <li><a href="clients-results.html">Resultado de clientes</a></li>
+        <li class="active">Omnisport Movil</li>
+      </ol>
+      <!-- BREADCRUMB -->
+
+      <div>
+        <h2>02. Título de página</h2>
+        <img src="img/components/titulo.png" width="auto">
+      </div>
+      <!-- TITULO -->
+      <div class="row">
+        <div class="col-sm-10">
+          <h3>Este es un título de página</h3>
+        </div>
+      </div>
+      <!-- TITULO -->
+
+      <div>
+        <h2>03. Información en modo de vista sin formularios</h2>
+        <img src="img/components/info-sin-forms.png" width="auto">
+      </div>
+      <br>
+
+      <!-- INFO SIN FORMS -->
+      <div class="row">
+        <div class="col-sm-10">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <div class="row">
+                  <div class="col-md-6">
+                    <label>Nombre cliente</label> <br>Omnisport móvil
+                  </div>
+                  <div class="col-md-6">
+                    <label>Día de facturación</label> <br>1 mes
+                  </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                  <div class="col-md-12">
+                    <label>Plan tarifario</label> <br>Plan AV-160-7 / Internacional Nivel 16 / Roaming GT
+                  </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                  <div class="col-md-12">
+                    <label>Servicios</label> <br><a href="#">Destinos abreviados</a>, Largo destino abreviado 5
+                  </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                  <div class="col-md-12">
+                    <label><a href="#">Controles</a></label> <br>Control Horario   Cuenta Controlada   Control Destino  
+                  </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--  INFO SIN FORMS -->
+
+
+      <div>
+        <h2>04. Grilla con acciones</h2>
+        <img src="img/components/grilla-acciones.png" width="auto">
+      </div>
+      <br>
+
+      <!--  GRILLA CON ACCIONES -->
+      <div class="row">
+        <div class="col-sm-10">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Cliente</th>
+                        <th>VPN</th>
+                        <th>VPN Regional</th>
+                        <th colspan="1"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><a href="5.1.1.1.html">Omnisport Movil</a></td>
+                        <td>Omnisport VPN</td>
+                        <td></td>
+                        <td>
+                          <a href="5.1.1.2.html" class="btn btn-default btn-xs" data-toggle="tooltip" title="Modificar">
+                            <i class="fa fa-pencil"></i>
+                          <a/>
+                          <a href="#" class="btn btn-default btn-xs" data-toggle="tooltip" title="Eliminar">
+                            <i class="fa fa-trash"></i>
+                          <a/>
+                          <a href="5.1.1.3.html" class="btn btn-default btn-xs" data-toggle="tooltip" title="Servicios">
+                            <i class="fa fa-cogs"></i>
+                          <a/>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!--  GRILLA CON ACCIONES  -->
+
+      <div>
+        <h2>05. Botones de cierre de acción</h2>
+        <img src="img/components/botones-acciones.png" width="auto">
+      </div>
+      <br>
+      <!--  BOTONES DE CIERRE DE ACCION -->
+      <div class="row">
+        <div class="col-sm-12">
+          <a class="btn btn-default btn-primary" href="#">Buscar</a>
+          <a class="btn btn-default btn-default" href="#">Cancelar</a>
+        </div>
+      </div>
+      <!--  BOTONES DE CIERRE DE ACCION -->
+
+    
+    </div>
+
+
+  </body>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/affix.js"></script>
+    <script src="js/alert.js"></script>
+    <script src="js/button.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/collapse.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/npm.js"></script>
+    <script src="js/popover.js"></script>
+    <script src="js/scrollpy.js"></script>
+    <script src="js/tab.js"></script>
+    <script src="js/tooltip.js"></script>
+    <script src="js/less.js"></script>
+
+    <script type="text/javascript">
+      jQuery( document ).ready(function( $ ) {
+        $( ".dropdown-toggle" ).dropdown();
+      });
+    </script>
+</html>
