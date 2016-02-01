@@ -35,7 +35,35 @@
       <div class="band-black">
         <div class="container">
           <div class="col-md-12">
-            <span class="pull-right"> <span class="flag-icon flag-icon-sv"></span> El Salvador</span>
+            <span class="dropdown pull-right country">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-sv"></span> El Salvador <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#"><span class="flag-icon flag-icon-ar"></span> Argentina</a></li>
+                <li><a href="#"><span class="flag-icon flag-icon-br"></span> Brasil</a></li>
+                <li><a href="#"><span class="flag-icon flag-icon-cl"></span> Chile</a></li>
+                <li><a href="#"><span class="flag-icon flag-icon-co"></span> Colombia</a></li>
+                <li><a href="#"><span class="flag-icon flag-icon-cr"></span> Costa Rica</a></li>
+                <li><a href="#"><span class="flag-icon flag-icon-ec"></span> Ecuador</a></li>
+                <li><a href="#"><span class="flag-icon flag-icon-sv"></span> El Salvador</a></li>
+                <li><a href="#"><span class="flag-icon flag-icon-gt"></span> Guatemala</a></li>
+                <li><a href="#"><span class="flag-icon flag-icon-hn"></span> Honduras</a></li>
+                <li><a href="#"><span class="flag-icon flag-icon-ni"></span> Nicaragua</a></li>
+                <li><a href="#"><span class="flag-icon flag-icon-pa"></span> Panamá</a></li>
+                <li><a href="#"><span class="flag-icon flag-icon-py"></span> Paraguay</a></li>
+                <li><a href="#"><span class="flag-icon flag-icon-pe"></span> Perú</a></li>
+                <li><a href="#"><span class="flag-icon flag-icon-pr"></span> Puerto Rico</a></li>
+                <li><a href="#"><span class="flag-icon flag-icon-do"></span> República Dominicana</a></li>
+                <li><a href="#"><span class="flag-icon flag-icon-uy"></span> Uruguay</a></li>
+              </ul>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="pre-header">
+        <div class="container">
+          <div class="col-md-12">
+            Personas
+            Empresas
           </div>
         </div>
       </div>
@@ -99,8 +127,27 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/affix.js"></script>
+    <script src="js/alert.js"></script>
+    <script src="js/button.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/collapse.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/npm.js"></script>
+    <script src="js/popover.js"></script>
+    <script src="js/scrollpy.js"></script>
+    <script src="js/tab.js"></script>
+    <script src="js/tooltip.js"></script>
     <script src="js/less.js"></script>
-    <script src="js/flag.js"></script>
+
+    <script type="text/javascript">
+      jQuery( document ).ready(function( $ ) {
+        $( ".dropdown-toggle" ).dropdown();
+      });
+    </script>
 
   </body>
 </html>
