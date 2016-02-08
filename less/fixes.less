@@ -1,15 +1,22 @@
-.navbar-nav {
-	margin-top: 25px;
+// .navbar-nav {
+// 	margin-top: 25px;
+// }
+.navbar {
+    margin-bottom: 0;
 }
 body {
-    background-color: #EAEAEA;
+    background-color: #FFF;
 }
 
-.navbar-nav > li > a {
-	border-radius: @border-radius-base;
-	padding-top: 10px;
-    padding-bottom: 10px;
+.second-brand  {
+    display: inline-block;
+    padding-top: 20px;
 }
+// .navbar-nav > li > a {
+// 	border-radius: @border-radius-base;
+// 	padding-top: 10px;
+//     padding-bottom: 10px;
+// }
 label, button, a.btn {
 	text-transform: uppercase;
 	font-weight: normal;
@@ -125,6 +132,7 @@ label, button, a.btn {
 ul.title-claro {
     margin-bottom: 0px;
     padding-top: 15px;
+    float: left;
 }
 .pre-header {
     box-shadow: 0 1px 15px rgba(0,0,0,0.5)
@@ -152,5 +160,30 @@ ul.title-claro {
     top: 50px;
     z-index: 1;
 }
+.user-list {
+    margin-top: 5px;
+    a {
+        color: #FFF;
+    }
 
-/*40 top*/
+}
+.user-list > li > a:hover, .user-list > li > a:focus, .user-list .open > a, .user-list .open > a:hover, .user-list .open > a:focus  {
+    background-color: #81201E;
+}
+.user-list .dropdown-menu {
+    background-color: #080808;
+
+}
+.user-list .dropdown-menu a{
+    color: #FFF;
+}
+.user-list .dropdown-menu > a:hover, .user-list .dropdown-menu > a:focus {
+    color: #FFF;
+    background-color: 545454;
+}
+.user-list .dropdown-menu > li > a:hover,.user-list .dropdown-menu > li > a:focus {
+    text-decoration: none;
+    color: #f5f5f5;
+    background-color: #3F3F3F;
+}
+
